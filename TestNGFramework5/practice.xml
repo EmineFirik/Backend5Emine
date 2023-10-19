@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Practice">
+	<listeners>
+		<listener class-name="com.neotech.testbase.Listener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test Practice">
+    <classes>
+      
+      <class name="com.neotech.testcases.PracticeAddEmployee">
+		
+		<methods>
+			<include name="TestOrangeHRM"></include>
+		</methods>
+	  </class>
+    
+    </classes>
+  </test> <!-- Test Practice -->
+</suite> <!-- Suite Practice -->

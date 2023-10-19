@@ -16,7 +16,8 @@ public class ExcelUtility {
 		try {
 			FileInputStream fis = new FileInputStream(filePath);
 			book = new XSSFWorkbook(fis);
-		} catch (IOException e) {
+		} 
+		catch (IOException e) {
 			e.printStackTrace();
 		}
 	}

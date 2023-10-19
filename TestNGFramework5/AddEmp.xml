@@ -6,11 +6,7 @@
 		<listener class-name="com.neotech.testbase.Listener"></listener>
 	</listeners>
   <test thread-count="5" name="Test AddEmp">
-	  <groups>
-		  <run>
-			  <include name="OrangeHRM"></include>
-		  </run>
-	  </groups>
+	  
     <classes>
 
       <class name="com.neotech.testcases.AddEmployeeTest">

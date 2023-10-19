@@ -16,7 +16,7 @@
           <include name="generateReport"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="TestOrangeHRM" invocation-numbers="0 1 2"/>
+          <include name="TestOrangeHRM"/>
           <include name="writeReport"/>
         </methods>
       </class> <!-- com.neotech.testcases.AddEmployeeTest -->

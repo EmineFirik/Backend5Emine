@@ -10,11 +10,11 @@ public class Listener implements ITestListener {
 
 	public void onStart (ITestContext context) 
 	{
-		System.out.println("Funvtionanlity test started");
+		System.out.println("Functionality test started");
 	}
 	
 	public void  onFinish (ITestContext context) {
-		System.out.println("Funvtionanlity test started");
+		System.out.println("Functionality test started");
 	}
 	
 	public void  onTestStart (ITestResult result) {
