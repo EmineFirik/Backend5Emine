@@ -24,6 +24,9 @@ public class LoginPage  extends CommonMethods{
 	@FindBy(xpath="//div[@class='toast-message']")
 	public WebElement wrongCredentialText;
 	
+	@FindBy(xpath="//*[@id=\"toast-container\"]/div/div")
+	public WebElement invalidCredentials;
+	
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
 	}

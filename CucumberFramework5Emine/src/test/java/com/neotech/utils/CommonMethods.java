@@ -23,8 +23,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.google.common.io.Files;
 import com.neotech.testbase.BaseClass;
+import com.neotech.testbase.PageInitializer;
 
-public class CommonMethods extends BaseClass {
+public class CommonMethods extends PageInitializer {
 	/**
 	 * 
 	 * @param element

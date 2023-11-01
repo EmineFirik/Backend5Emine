@@ -15,6 +15,10 @@ public class AddEmployeePage extends CommonMethods {
 	@FindBy (id= "last-name-box")
 	public WebElement lastName;
 	
+	@FindBy(id="middle-name-box")
+	public WebElement middleName;
+	
+	
 	@FindBy (id="employeeId")
 	public WebElement employeeID;
 	

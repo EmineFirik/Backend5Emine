@@ -31,6 +31,11 @@ public class GoogleSearchSteps {
 	public void i_can_count_the_number_of_the_results() {
 	    System.out.println("Count the number of the results");
 	}
+	@When("I say what I want to search")
+	public void i_say_what_i_want_to_search() {
+	   
+		System.out.println("Say puppy images");
+	}
 
-
+	
 }

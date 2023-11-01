@@ -18,5 +18,7 @@ public class Constants {
 	public static final int EXPLICIT_WAIT_WAITTIME=25;
 	
 	public static final int IMPLICIT_WAIT_WAITTIME=15;
+
+	public static final long IMPLICIT_WAIT_TIME = 0;
 	
 }

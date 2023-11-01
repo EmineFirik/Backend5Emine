@@ -20,6 +20,15 @@ public class DashboardPageElements extends CommonMethods{
 	@FindBy(xpath ="//span[text()='Add Employee']")
 	public WebElement AddEmployee;
 	
+	@FindBy ( id="account-job")
+	public WebElement accountMenu;
+	
+	@FindBy (id="logoutLink")
+	public WebElement logout;
+	
+	@FindBy ( id ="menu_pim_viewEmployeeList")
+	public WebElement EmployeeList;
+	
 	public DashboardPageElements() {
 		PageFactory.initElements(driver, this);
 	}

@@ -11,7 +11,7 @@ import com.neotech.utils.Constants;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BaseClass {
+public class BaseClass  {
 
 	public static WebDriver driver;
 
@@ -40,6 +40,9 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		String website = ConfigsReader.getProperty("url");
 		driver.get(website);
+		
+		
+		PageInitializer.initialize();//POM burada
 	}
 
 	public static void tearDown() {
