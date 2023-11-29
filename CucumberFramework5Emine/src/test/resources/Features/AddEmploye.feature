@@ -1,7 +1,7 @@
 @AddEmployee
 Feature: Implement Add Employee Feature and steps for each scenerio
 
-  @smoke @regression
+  @smoke 
   Scenario: AddEmploye with first and last name
     Given user is logged in with valid credentials
     And click Pim and Employee

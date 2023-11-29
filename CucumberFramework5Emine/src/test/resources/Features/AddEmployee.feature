@@ -52,4 +52,9 @@ Feature: Add Employee Feature
       | Emre      | A          | Cinar    |
       | Emilija   | T          | Markovic |
       
-      
+     
+     @ExceldataTable 
+    Scenario: Add multiple employees from Excel
+    When user enters employee data from "Experience" excel sheet then save  
+    
+    

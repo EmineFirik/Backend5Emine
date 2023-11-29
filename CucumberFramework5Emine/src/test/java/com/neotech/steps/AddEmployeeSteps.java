@@ -60,7 +60,7 @@ public class AddEmployeeSteps extends CommonMethods {
 	
 	@Given("user is navigate personel detail")
 	public void user_is_navigate_personel_detail() {
-		click(personelDetails.fullNameTitle);
+		click(personelDetails.employeName);
 		
 		
 	}
@@ -70,7 +70,7 @@ public class AddEmployeeSteps extends CommonMethods {
 	@Then("verify the personel name")
 	public void verify_the_personel_name() {
 	  String expected ="Test Tester";
-	  String actual = personelDetails.fullNameTitle.getText();
+	  String actual = personelDetails.employeName.getText();
 	  
 	  if( actual.equals(expected)) {
 		  System.out.println("Test is pass");
